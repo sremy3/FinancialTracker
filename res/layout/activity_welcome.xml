@@ -21,21 +21,21 @@
         android:textSize="30sp" />
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/welcome_register_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/welcome_banner"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="Register" />
+        android:text="@string/register" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/welcome_login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/register"
+        android:layout_below="@+id/welcome_register_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="Login" />
+        android:text="@string/login" />
 
 </RelativeLayout>

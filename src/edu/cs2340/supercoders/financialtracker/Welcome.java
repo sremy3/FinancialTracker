@@ -16,13 +16,24 @@ public class Welcome extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_welcome);
 		
+		LoginData.initializeRegistry();
+		
 		//Setting up the login button
-		Button login = (Button) findViewById(R.id.login);
+		Button login = (Button) findViewById(R.id.welcome_login_button);
 		login.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View v){
 				Intent loginIntent = new Intent(getApplicationContext(), Login.class);
 				startActivity(loginIntent);
+			}
+		});
+		
+		Button register = (Button) findViewById(R.id.welcome_register_button);
+		register.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v){
+				Intent registerIntent = new Intent(getApplicationContext(), Register.class);
+				startActivity(registerIntent);
 			}
 		});
 		

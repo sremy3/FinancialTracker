@@ -26,6 +26,14 @@
             android:name="edu.cs2340.supercoders.financialtracker.Login"
             android:label="@string/title_activity_login" >
         </activity>
+        <activity
+            android:name="edu.cs2340.supercoders.financialtracker.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="edu.cs2340.supercoders.financialtracker.Register"
+            android:label="@string/title_activity_register" >
+        </activity>
     </application>
 
 </manifest>
