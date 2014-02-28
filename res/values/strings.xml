@@ -13,5 +13,11 @@
     <string name="title_activity_register">Register</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
+    <string name="new_account">New Account</string>
+    <string name="view_accounts">Accounts</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="account_type">Account Type</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="create">Create New Account</string>
 
 </resources>

@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="edu.cs2340.supercoders.financialtracker.Welcome"
+            android:name="edu.cs2340.supercoders.financialtracker.activities.Welcome"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,16 +23,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="edu.cs2340.supercoders.financialtracker.Login"
+            android:name="edu.cs2340.supercoders.financialtracker.activities.Login"
             android:label="@string/title_activity_login" >
         </activity>
         <activity
-            android:name="edu.cs2340.supercoders.financialtracker.Home"
+            android:name="edu.cs2340.supercoders.financialtracker.activities.Home"
             android:label="@string/title_activity_home" >
         </activity>
         <activity
-            android:name="edu.cs2340.supercoders.financialtracker.Register"
+            android:name="edu.cs2340.supercoders.financialtracker.activities.Register"
             android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="edu.cs2340.supercoders.financialtracker.activities.CreateAccount"
+            android:label="@string/title_activity_create_account" >
         </activity>
     </application>
 
